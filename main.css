@@ -1,0 +1,67 @@
+*{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+
+    scroll-behavior: smooth;
+}
+
+section{
+
+    height: 100vh;
+    
+}
+
+ .navbar{
+
+    background-color: rgb(187, 177, 163);
+}
+
+.navbar-brand,.nav-link, .navbar-brand:hover, .nav-link:hover{
+
+    color: rgb(27, 0, 0);
+}
+
+#cabecalho .nav .nav-link.active{
+
+    background-color: rgb(177, 168, 156);    
+}
+
+.cor-do-site{
+
+    color: rgb(177, 168, 156);
+}
+
+.carousel{
+
+    overflow-x: hidden;
+}
+
+.carousel-item img{
+
+    width: 100%;
+    height: auto;
+}
+
+.cor_subtitulo{
+
+    color: orange;
+}
+
+.caixa-texto{
+
+    resize: none;
+}
+
+.redes-sociais li{
+
+    list-style: none;
+    display: inline;
+}
+
+.redes-sociais a{
+
+    text-decoration: none;
+}
