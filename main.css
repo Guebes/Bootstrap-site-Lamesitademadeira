@@ -65,3 +65,10 @@ section{
 
     text-decoration: none;
 }
+
+label.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+    display: block;
+}
