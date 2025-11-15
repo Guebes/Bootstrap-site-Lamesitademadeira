@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./main.css">
 
-
-
 </head>
 
 <body data-bs-spy="scroll" tabindex="0" data-bs-smooth-scroll="true" data-bs-target="#menu_nav">
@@ -310,23 +308,28 @@
                 <div class="col-md-7 mb-3">
                     <form id="id-formulario">
                         <div>
-                            <label class="form-label" for="nome">Seu nome: </label>
-                            <input type="text" class="form-control" id="input-nome">
+                            <label class="form-label" for="input-nome">Seu nome:</label>
+                            <input type="text" class="form-control" id="input-nome" name="nome">
                         </div>
+
                         <div>
-                            <label class="form-label" for="e-mail">Seu e-mail: </label>
-                            <input type="email" class="form-control" id="input-email">
+                            <label class="form-label" for="input-email">Seu e-mail:</label>
+                            <input type="email" class="form-control" id="input-email" name="email">
                         </div>
+
                         <div>
-                            <label class="form-label" for="telefone">Seu telefone: (opcional)</label>
+                            <label class="form-label" for="input-telefone">Seu telefone (opcional):</label>
                             <input type="text" class="form-control" id="input-telefone" name="telefone">
                         </div>
+
                         <div>
-                            <label class="form-label" for="mensagem">Sua mensagem: </label>
-                            <textarea class="form-control caixa-texto" id="input-mensagem"></textarea>
+                            <label class="form-label" for="input-mensagem">Sua mensagem:</label>
+                            <textarea class="form-control caixa-texto" id="input-mensagem" name="mensagem"></textarea>
                         </div>
+
                         <button type="submit" class="btn btn-primary mt-2 mb-2">Enviar</button>
                     </form>
+
                 </div>
                 <div class="col-md-5">
                     <div class="row">
@@ -361,7 +364,8 @@
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!-- Carregue o jQuery primeiro -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-<script src="./mask_JS_plugins/jquery.validate.min.js"></script> <!-- Validação -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/localization/messages_pt_BR.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 <script src="main.js"></script>
 
